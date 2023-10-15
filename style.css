@@ -1,9 +1,11 @@
 body {
     background-color: #FAF0E6;
+    /* Define a fonte do programa */
     font-family: Tahoma;
+    /* Define o tamanho da fonte do programa */
     font-size: 14px;
 }
-
+/* Define as configurações do menu */
 .menu {
     width: 100%;
     height: 40px;
@@ -13,6 +15,7 @@ body {
     background-color: #FAF0E6;
 }
 
+/* Define as configurações da tag <a> */
 a {
     text-decoration-line: none;
     color: #ADD8E6;
@@ -24,6 +27,7 @@ table {
     font-family: Tahoma;
 }
 
+/* Define as configurações de formatação do texto da pagina de ancoras */
 .texto {
     margin: 0% 2%;
     text-align: justify;
