@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="menu">
+        |
+        <a href="entrada.html">Entrada</a> |
+        <a href="formulario.html">Formulario</a> |
+        <a href="ancoras.html">Âncoras</a> |
+        <a href="relatorios.html">Relatório</a> |
+        <button onclick="history.go(-1)" style="border-style: none; background: #FAF0E6;">Voltar</button>
+        <hr>
+    </div>
+    <h2 style="color: red; margin: 3px;">Formulário</h2>
+    <hr color="red" width="90%" size="2" float="right">
+
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Professor</td>
+                <td>: <select name="professor" id="professor">
+                        <option value="Matematica">Matematica</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Historia">Historia</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Nome completo</td>
+                <td>: <input type="text" name="nome_completo"></td>
+            </tr>
+            <tr>
+                <td>Escola de graduação</td>
+                <td>: <input type="text" name="escola_graduacao"></td>
+            </tr>
+            <tr>
+                <td>Cidade de nascimento</td>
+                <td>: <input type="text" name="cidade_nascimento"></td>
+            </tr>
+            <tr>
+                <td>Logradouro</td>
+                <td>: <input type="text" name="logradouro"></td>
+            </tr>
+            <tr>
+                <td>Número de telefone</td>
+                <td>: <input type="text" name="numero_telefone"></td>
+            </tr>
+            <tr>
+                <td>Bairro</td>
+                <td>: <input type="text" name="bairro"></td>
+            </tr>
+            <tr>
+                <td>CEP</td>
+                <td>: <input type="text" name="cep"></td>
+            </tr>
+            <tr>
+                <td>Data de nascimento</td>
+                <td>: <input type="date" name="data_nascimento"></td>
+            </tr>
+            <tr>
+                <td>Data de cadastro do professor</td>
+                <td>: <input type="date" name="data_cadastro_professor"></td>
+            </tr>
+            <tr>
+                <td>Resenha profissional</td>
+                <td>: <textarea name="resenha_profissional"></textarea></td>
+            </tr>
+            <tr>
+                <td><button style="float: right; border-style: none; background: #FAF0E6;" type="reset">Limpar</button>
+                </td>
+                <td>: <input type="submit" value="Enviar" style="border-style: none; background: #FAF0E6;"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
